@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-datocms-demo",
+  "description": "Gatsby DatoCMS creative portfolio demo",
+  "version": "1.0.0",
+  "author": "Stefano Verna <s.verna@datocms.com>",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "gatsby": "^2.15.30",
+    "gatsby-image": "^2.2.24",
+    "gatsby-plugin-react-helmet": "^3.1.10",
+    "gatsby-plugin-sass": "^2.1.17",
+    "gatsby-source-datocms": "^2.1.18",
+    "gatsby-source-filesystem": "^2.1.29",
+    "gatsby-transformer-remark": "^2.6.27",
+    "node-sass": "^4.11.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.0",
+    "react-masonry-component": "^6.2.1",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
+}
